@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">07 Fragments</string>
+    <string name="new_fragment">New Fragment?</string>
+    <string name="ret">return?</string>
+    <string name="what_was_passed_in">What was passed in?</string>
+    <string name="show_all">Show all?</string>
+</resources>

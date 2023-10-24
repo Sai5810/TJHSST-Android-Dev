@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Lab02</string>
+    <string name="insert_text">Insert Text</string>
+    <string name="click_on_me">Click on me!</string>
+    <string name="placeholder">Placeholder</string>
+    <string name="click_me">CLICK ME</string>
+    <string name="Cycle">cycle</string>
+    <string name="reoutput">You just said: %1$s</string>
+    <string name="changecolor">Change!</string>
+    <string name="stop">Stop</string>
+    <string name="restart">Restart</string>
+    <string name="todo">TODO</string>
+    <string-array
+        name="cycleArr">
+        <item>dont</item>
+        <item>say</item>
+        <item>kid</item>
+        <item>amogus</item>
+        <item>backwards</item>
+    </string-array>
+</resources>

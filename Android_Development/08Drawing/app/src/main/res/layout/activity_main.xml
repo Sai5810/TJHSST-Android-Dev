@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/jermasus"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0"
+        android:rotation="180"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/among"
+        app:srcCompat="@drawable/jermasus" />
+
+    <view
+        android:id="@+id/among"
+        class="com.vakasai.a08drawing.AmongView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/revY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="revY"
+        android:text="@string/reverse"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <ImageView
+        android:id="@+id/leftEye"
+        android:layout_width="34dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="288dp"
+        android:layout_marginTop="120dp"
+        android:alpha="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/wtf" />
+
+    <ImageView
+        android:id="@+id/rightEye"
+        android:layout_width="34dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="328dp"
+        android:layout_marginTop="120dp"
+        android:alpha="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/wtf" />
+
+    <ImageView
+        android:id="@+id/rightHand"
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="292dp"
+        android:alpha="0"
+        android:rotation="90"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/hands" />
+
+    <ImageView
+        android:id="@+id/leftHand"
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="292dp"
+        android:alpha="0"
+        android:rotation="270"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/hands" />
+
+    <ImageView
+        android:id="@+id/rightFoot"
+        android:layout_width="136dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="476dp"
+        android:alpha="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/foot" />
+
+    <ImageView
+        android:id="@+id/leftFoot"
+        android:layout_width="136dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="476dp"
+        android:alpha="0"
+        android:rotationY="-180"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/foot" />
+
+    <ImageView
+        android:id="@+id/dripjacket"
+        android:layout_width="match_parent"
+        android:layout_height="290dp"
+        android:layout_marginTop="208dp"
+        android:alpha="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dripjacket" />
+
+    <ImageView
+        android:id="@+id/chain"
+        android:layout_width="148dp"
+        android:layout_height="186dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="252dp"
+        android:alpha="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/chain" />
+
+    <view
+        android:id="@+id/drawme"
+        class="com.vakasai.a08drawing.DrawView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

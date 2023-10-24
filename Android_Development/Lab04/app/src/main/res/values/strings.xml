@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Lab04</string>
+    <string name="deez">deez</string>
+    <string name="stun">stun</string>
+    <string name="a_mastapiece">a mastapiece</string>
+    <string name="do_you_know_who_dn_is">do you know who dn is?</string>
+    <string name="what_do_i_put_here">what do i put here?</string>
+    <string name="button">Button</string>
+    <string name="this_is_text">THIS IS TEXT</string>
+    <string name="todo">TODO</string>
+    <string name="togglebutton">ToggleButton</string>
+    <string name="checkbox">CheckBox</string>
+    <string name="next">Next!</string>
+</resources>

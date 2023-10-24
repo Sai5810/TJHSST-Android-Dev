@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/dText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/deez"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/abcblue"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="@string/next"
+        android:onClick="next"/>
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:adjustViewBounds="true"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/mmlp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:contentDescription="@string/a_mastapiece" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip4"
+        android:layout_width="wrap_content"
+        android:layout_height="86dp"
+        android:text="@string/do_you_know_who_dn_is"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/blacksus"
+        android:tag="black"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/chip4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/blacksus"
+        android:alpha="0"
+        android:background="@android:color/transparent"
+        android:onClick="sus"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

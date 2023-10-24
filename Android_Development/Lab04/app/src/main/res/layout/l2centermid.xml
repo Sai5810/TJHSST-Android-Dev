@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha=".5"
+        android:fontFamily="casual"
+        android:text="@string/what_do_i_put_here"
+        android:textColor="#000CFF"
+        android:textStyle="bold"
+        android:thumbTint="#E1F5F8"
+        android:trackTint="#00BCD4"
+        android:typeface="sans"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/ettPW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints="password!"
+        android:background="@drawable/edit_border"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:autofillHints="Date!"
+        android:background="@drawable/edit_border"
+        android:backgroundTint="#03B0FF"
+        android:ems="10"
+        android:inputType="date"
+        app:layout_constraintBottom_toTopOf="@+id/ettPW"
+        app:layout_constraintRight_toLeftOf="@id/ettPW" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="next"/>
+
+    <ImageView
+        android:id="@+id/bluesus"
+        android:tag="blue"
+        android:layout_width="130dp"
+        android:layout_height="135dp"
+        android:layout_marginStart="116dp"
+        android:onClick="sus"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:alpha="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bluesus" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

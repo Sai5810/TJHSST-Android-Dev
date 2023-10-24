@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="sus">
+        <item>@drawable/blacksus</item>
+        <item>@drawable/bluesus</item>
+        <item>@drawable/greensus</item>
+        <item>@drawable/imposter</item>
+        <item>@drawable/pinksus</item>
+        <item>@drawable/whitesus</item>
+        <item>@drawable/yellowsus</item>
+    </array>
+</resources>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Lab05</string>
+    <string name="current_run">Current Run</string>
+    <string name="lifetime">Lifetime</string>
+    <string name="oncreate_0">onCreate: 0</string>
+    <string name="onstart_0">onStart: 0</string>
+    <string name="onresume_0">onResume: 0</string>
+    <string name="onpause_0">onPause: 0</string>
+    <string name="onstop_0">onStop: 0</string>
+    <string name="onrestart_0">onRestart: 0</string>
+    <string name="ondestroy_0">onDestroy: 0</string>
+    <string name="reset_lifetime">Reset Lifetime</string>
+    <string name="reset_current">Reset Current</string>
+</resources>
